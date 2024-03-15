@@ -1,0 +1,42 @@
+export const Questions = [
+  {
+    prompt: "What country has the highest life expectancy?",
+    optionA: "Hong Kong",
+    optionB: "China",
+    optionC: "South Africa",
+    optionD: "USA",
+    answer: "A",
+  },
+  {
+    prompt: "What is the most common surname in the United States? ",
+    optionA: "Smith",
+    optionB: "Johnson",
+    optionC: "Williams",
+    optionD: "Brown",
+    answer: "A",
+  },
+  {
+    prompt: "What year was the United Nations established?",
+    optionA: "1925",
+    optionB: "1935",
+    optionC: "1945",
+    optionD: "1820",
+    answer: "C",
+  },
+  {
+    prompt: "How many minutes are in a full week?",
+    optionA: "8450",
+    optionB: "9260",
+    optionC: "10100",
+    optionD: "10080",
+    answer: "D",
+  },
+  {
+    prompt: "What is the largest Spanish-speaking city in the world?",
+    optionA: "Mexico City",
+    optionB: "Barcelona",
+    optionC: "Buenos Aires",
+    optionD: "Quito",
+    answer: "A",
+  },
+];

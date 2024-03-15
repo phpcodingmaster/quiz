@@ -1,0 +1,88 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-family: "Montserrat", sans-serif;
+}
+
+.Menu, .Quiz {
+  width: 500px;
+  min-height: 450px;
+  background-color: #135854;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.Menu button, .Quiz button, .EndScreen button {
+  width: 300px;
+  height: 50px;
+  margin: 5px;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.Menu, .Quiz {
+  color: #fff;
+}
+
+.options {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+button.start_quiz {
+  background-color: #ce3838;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+button.next_question {
+  background-color: #ce3838;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+button.finish_quiz {
+  background-color: #ce3838;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+button.restart_quiz {
+  background-color: #ce3838;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.EndScreen {
+  width: 500px;
+  min-height: 450px;
+  background-color: #135854;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App > h1 {
+  background-color: #ce3838;
+  color: #ffffff;
+  padding: 15px;
+  margin: 0px;
+}
+
+.Quiz > h1 {
+  font-size: 24px;
+}
