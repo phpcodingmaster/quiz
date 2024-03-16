@@ -13,6 +13,7 @@ function App() {
     <>
       <div className="App">
         <h1>Quiz App</h1>
+        <p></p>
 
         <QuizContext.Provider
           value={{ gameState, setGameState, score, setScore }}
